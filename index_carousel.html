@@ -35,6 +35,37 @@
   
   
 </head>
+<style>
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: -100px;
+        left: 0;
+        z-index: 15;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding-left: 0;
+        margin-right: 15%;
+        margin-left: 15%;
+        list-style: none;
+    }
+    .cid-saNUN1GiaH {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        background-color: #ff9933;
+        padding-left: 25rem;
+    }
+    .car-align
+    {
+        margin-left: -21rem;
+    }
+    .car-align-arrow
+    {
+        margin-left: -10rem;
+    }
+</style>
 <body>
   
   <section class="menu cid-s48OLK6784" once="menu" id="menu1-h">
@@ -93,22 +124,27 @@
 </section>
 
 <section class="features2 cid-saNUN1GiaH" id="features3-o">
-    
+
+    <div class="container-fluid">
+        <div class="mbr-section-head ">
+            <h4 class="mbr-section-title align-center mbr-white mbr-fonts-style mb-0 display-2">
+                <strong class="car-align">Próximos eventos</strong></h4>
+        </div>
+    </div>
    <!--Carousel Wrapper-->
    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
     <!--Controls-->
-    <div class="controls-top">
-      <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-      <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-    </div>
+    <!-- <div class="controls-top">
+      <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa carousel-control-prev-icon"></i></a>
+      <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa carousel-control-next-icon"></i></a>
+    </div> -->
     <!--/.Controls-->
 
     <!--Indicators-->
-    <ol class="carousel-indicators">
+    <ol class="carousel-indicators car-align-arrow">
       <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
       <li data-target="#multi-item-example" data-slide-to="1"></li>
-      <li data-target="#multi-item-example" data-slide-to="2"></li>
     </ol>
     <!--/.Indicators-->
 
@@ -119,41 +155,41 @@
       <div class="carousel-item active">
 
         <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-2">
+          <div class="col-md-3">
+            <div class="card mb-2" style="background-color: white;">
               <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
                 alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a class="btn btn-primary">Button</a>
+                <h4 class="card-title">Evento 1</h4>
+                <p class="card-text"><strong>Fecha y Hora:</strong> DD/MM/YYYY</p>
+                <p class="card-text"><strong>Descripción</strong> Breve Descripción</p>
+                <a class="btn btn-primary">Inscribite</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 clearfix d-none d-md-block">
-            <div class="card mb-2">
+          <div class="col-md-3 clearfix d-none d-md-block">
+            <div class="card mb-2" style="background-color: white;">
               <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
                 alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a class="btn btn-primary">Button</a>
+                <h4 class="card-title">Evento 2</h4>
+                <p class="card-text"><strong>Fecha y Hora:</strong> DD/MM/YYYY</p>
+                <p class="card-text"><strong>Descripción</strong> Breve Descripción</p>
+                <a class="btn btn-primary">Inscribite</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 clearfix d-none d-md-block">
-            <div class="card mb-2">
+          <div class="col-md-3 clearfix d-none d-md-block">
+            <div class="card mb-2" style="background-color: white;">
               <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
                 alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a class="btn btn-primary">Button</a>
+                <h4 class="card-title">Evento 3</h4>
+                <p class="card-text"><strong>Fecha y Hora:</strong> DD/MM/YYYY</p>
+                <p class="card-text"><strong>Descripción</strong> Breve Descripción</p>
+                <a class="btn btn-primary">Inscribite</a>
               </div>
             </div>
           </div>
@@ -162,45 +198,47 @@
       </div>
       <!--/.First slide-->
 
+      
       <!--Second slide-->
       <div class="carousel-item">
+        
 
         <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-2">
+          <div class="col-md-3">
+            <div class="card mb-2" style="background-color: white;">
               <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
                 alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Evento 1</h4>
-                <p class="card-text">Some quick example text to build on the Evento 1 and make up the bulk of the
-                  card's content.</p>
-                <a class="btn btn-primary">Button</a>
+                <h4 class="card-title">Evento 4</h4>
+                <p class="card-text"><strong>Fecha y Hora:</strong> DD/MM/YYYY</p>
+                <p class="card-text"><strong>Descripción</strong> Breve Descripción</p>
+                <a class="btn btn-primary">Inscribite</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 clearfix d-none d-md-block">
-            <div class="card mb-2">
+          <div class="col-md-3 clearfix d-none d-md-block">
+            <div class="card mb-2" style="background-color: white;">
               <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
                 alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Evento 1</h4>
-                <p class="card-text">Some quick example text to build on the Evento 1 and make up the bulk of the
-                  card's content.</p>
-                <a class="btn btn-primary">Button</a>
+                <h4 class="card-title">Evento 5</h4>
+                <p class="card-text"><strong>Fecha y Hora:</strong> DD/MM/YYYY</p>
+                <p class="card-text"><strong>Descripción</strong> Breve Descripción</p>
+                <a class="btn btn-primary">Inscribite</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 clearfix d-none d-md-block">
-            <div class="card mb-2">
+          <div class="col-md-3 clearfix d-none d-md-block">
+            <div class="card mb-2" style="background-color: white;">
               <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
                 alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Evento 1</h4>
-                <p class="card-text">Some quick example text to build on the Evento 1 and make up the bulk of the
-                  card's content.</p>
-                <a class="btn btn-primary">Button</a>
+                <h4 class="card-title">Evento 6</h4>
+                <p class="card-text"><strong>Fecha y Hora:</strong> DD/MM/YYYY</p>
+                <p class="card-text"><strong>Descripción</strong> Breve Descripción</p>
+                <a class="btn btn-primary">Inscribite</a>
               </div>
             </div>
           </div>
@@ -209,52 +247,6 @@
       </div>
       <!--/.Second slide-->
 
-      <!--Third slide-->
-      <div class="carousel-item">
-
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-2">
-              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg"
-                alt="Card image cap">
-              <div class="card-body">
-                <h4 class="card-title">Evento 1</h4>
-                <p class="card-text">Some quick example text to build on the Evento 1 and make up the bulk of the
-                  card's content.</p>
-                <a class="btn btn-primary">Button</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 clearfix d-none d-md-block">
-            <div class="card mb-2">
-              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
-                alt="Card image cap">
-              <div class="card-body">
-                <h4 class="card-title">Evento 1</h4>
-                <p class="card-text">Some quick example text to build on the Evento 1 and make up the bulk of the
-                  card's content.</p>
-                <a class="btn btn-primary">Button</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 clearfix d-none d-md-block">
-            <div class="card mb-2">
-              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg"
-                alt="Card image cap">
-              <div class="card-body">
-                <h4 class="card-title">Evento 1</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a class="btn btn-primary">Button</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <!--/.Third slide-->
 
     </div>
     <!--/.Slides-->
@@ -336,13 +328,13 @@
             <h5 class="mbr-section-subtitle mbr-fonts-style mb-0 mt-2 display-7">Click para ver los videos.</h5>
         </div>
         <div class="row mt-4">
-            <div class="col-12 col-md-4 video-block">
+            <div class="col-12 col-md-3 video-block">
                 <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/I51ldoc-aZo?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
             </div>
-            <div class="col-12 col-md-4 video-block">
+            <div class="col-12 col-md-3 video-block">
                 <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/vwJn7qh-nXU?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
             </div>
-            <div class="col-12 col-md-4 video-block">
+            <div class="col-12 col-md-3 video-block">
                 <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/sQ4uj9Nc3SI?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
             </div>
         </div>
