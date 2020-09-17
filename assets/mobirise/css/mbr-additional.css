@@ -699,14 +699,18 @@ a {
     text-align: center;
   }
 }
+.cid-saNWaZyi4k .mbr-text,
+.cid-saNWaZyi4k .mbr-section-btn {
+  color: #6f6259;
+}
 .cid-s48udlf8KU {
-  padding-top: 9rem;
-  padding-bottom: 7rem;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
   background-image: url("../../../assets/images/gtz-landing2-2000x890.jpg");
 }
 .cid-s48udlf8KU .mbr-section-title {
-  text-align: left;
-  color: #ff6666;
+  text-align: center;
+  color: #ff9933;
 }
 .cid-s48udlf8KU .mbr-section-subtitle {
   text-align: left;
@@ -1056,7 +1060,7 @@ a {
 .cid-saNUN1GiaH {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #ffffff;
+  background-color: #ff9933;
 }
 .cid-saNUN1GiaH .item:focus,
 .cid-saNUN1GiaH span:focus {
@@ -1094,7 +1098,7 @@ a {
   margin-top: auto !important;
 }
 .cid-saNUN1GiaH .mbr-section-title {
-  color: #232323;
+  color: #951b81;
 }
 .cid-saNUN1GiaH .mbr-text,
 .cid-saNUN1GiaH .mbr-section-btn {
@@ -1119,10 +1123,13 @@ a {
 .cid-saNVAY3qRg .mbr-text {
   text-align: center;
 }
+.cid-saNVAY3qRg .mbr-section-title {
+  color: #951b81;
+}
 .cid-s48P1Icc8J {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #9f03ae;
+  background-color: #951b81;
 }
 .cid-s48P1Icc8J .row-links {
   width: 100%;
