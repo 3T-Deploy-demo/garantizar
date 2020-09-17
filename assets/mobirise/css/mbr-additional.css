@@ -119,7 +119,7 @@ body {
 .btn-primary,
 .btn-primary:active {
   background-color: #951b81 !important;
-  border-color: #8b90951b8199 !important;
+  border-color: #951b81 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
