@@ -106,7 +106,7 @@
                         <p class="mbr-text mbr-fonts-style mt-3 display-7"><strong>Fecha y Hora:</strong> 17/09/20 - 15 hs</p>
                         <p class="mbr-text mbr-fonts-style mt-3 display-7"><strong>Descripción</strong> En esta primera etapa haremos foco en el colectivo de mujeres como principales receptoras.</p>
                     </div>
-                    <div class="mbr-section-btn item-footer mt-2 text-center"><a href="" class="btn btn-primary item-btn display-7" target="_blank">Inscribite</a></div>
+                    <div class="mbr-section-btn item-footer mt-2 text-center"><a href="" class="btn btn-primary item-btn display-7" data-toggle="modal" data-target="#videoModal" data-theVideo="https://garantizar365.microsoftcrmportals.com/Landing-Programa-Capacitacion/">Inscribite</a></div>
                 </div>
             </div>            
         </div>
@@ -181,11 +181,34 @@
         </div>
     </div>    
 </section>
-<div id="myModal" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-content">            
-        </div>
-    </div>
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-body">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <div>
+                  <iframe width="100%" height="100%" src="https://garantizar365.microsoftcrmportals.com/Landing-Programa-Capacitacion/"></iframe>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 </body>
+<script>
+  autoPlayYouTubeModal();
+
+  //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
+  function autoPlayYouTubeModal() {
+    var trigger = $("body").find('[data-toggle="modal"]');
+    trigger.click(function() {
+      var theModal = $(this).data("target"),
+        videoSRC = $(this).attr("data-theVideo"),
+        videoSRCauto = videoSRC + "?autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function() {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  }
+</script>
 </html>
