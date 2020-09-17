@@ -824,6 +824,7 @@ a {
 }
 .cid-s48OLK6784 .navbar .navbar-logo img {
   width: auto;
+  height: 1.2rem !important;
 }
 .cid-s48OLK6784 .navbar .navbar-collapse {
   justify-content: flex-end;
@@ -892,7 +893,7 @@ a {
     top: 55%;
   }
   .cid-s48OLK6784 .navbar .navbar-logo img {
-    height: 3.8rem !important;
+    height: 1.2rem !important;
   }
   .cid-s48OLK6784 .navbar ul.navbar-nav li {
     margin: auto;
@@ -920,7 +921,7 @@ a {
   min-height: 60px;
 }
 .cid-s48OLK6784 .navbar.navbar-short .navbar-logo img {
-  height: 3rem !important;
+  height: 1rem !important;
 }
 .cid-s48OLK6784 .navbar.navbar-short .navbar-brand {
   padding: 0;
@@ -1193,4 +1194,7 @@ a {
 }
 .cid-s48P1Icc8J .media-container-row .row-copirayt p {
   width: 100%;
+}
+.cid-s48OLK6784 .navbar.navbar-short .navbar-logo img {
+  height: 1rem !important;
 }
