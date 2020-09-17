@@ -12,6 +12,12 @@
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
+      background-color: white;
+      color: lightblue;
+    }
+
+    .navbar-brand{
+      color: blue !important;
     }
     
     /* Add a gray background color and some padding to the footer */
@@ -32,6 +38,19 @@
       display: none; 
     }
   }
+
+  carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
   </style>
 </head>
 <body>
@@ -59,7 +78,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image">
+        <img src="static/img/GTZ_landing1.jpg" alt="Image">
         <div class="carousel-caption">
           <h3>Mas Info</h3>
         </div>      
