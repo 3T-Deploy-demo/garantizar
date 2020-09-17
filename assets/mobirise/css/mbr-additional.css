@@ -127,7 +127,7 @@ body {
 .btn-primary:focus,
 .btn-primary.focus,
 .btn-primary.active {
-  color: #ffffff !important;
+  color: #951b81 !important;
   background-color: #2260d200 !important;
   border-color: #951b81 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
