@@ -217,7 +217,7 @@ body {
 }
 .btn-info,
 .btn-info:active {
-  background-color: #47b5ed !important;
+  background-color: grey !important;
   border-color: #47b5ed !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
