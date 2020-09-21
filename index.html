@@ -4,12 +4,10 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="author" content="3T Deploy">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-  <meta name="description" content="Una iniciativa que busca facilitar y fortalecer el acceso al crédito a emprendedores y el sector PyME. En esta primera etapa haremos foco en el colectivo de mujeres como principales receptoras.">
-  <meta name="keywords" content="garantizar, inclusion, creditos, pymes">
-
+  <link rel="shortcut icon" href="assets/images/garantizar-copia-150x29.png" type="image/x-icon">
+  <meta name="description" content="">
+  
   
   <title>GARANTIZAR Inclusión</title>
   <link rel="stylesheet" href="assets/tether/tether.min.css">
@@ -21,6 +19,20 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
+  
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+  
+  
+  
+  
 </head>
 <body>
   
@@ -93,13 +105,13 @@
                     <div class="item-content">
                         <h4 class="item-title mbr-fonts-style display-6"><strong>Garantizar Inclusión</strong></h4>                        
                         <p class="mbr-text mbr-fonts-style mt-3 display-7"><strong>Fecha y Hora: </strong> 17/09/20 - 15 hs</p>
-                        <p class="mbr-text mbr-fonts-style mt-3 display-7"><strong>Descripción: </strong>Foco en el colectivo de mujeres como principales receptoras.</p>
+                        <p class="mbr-text mbr-fonts-style mt-3 display-7">Foco en el colectivo de mujeres como principales receptoras.</p>
                     </div>
                     <!-- <div class="mbr-section-btn item-footer mt-2 text-center"><a href="" class="btn btn-primary disabled item-btn display-7" data-toggle="modal" data-target="#videoModal" data-theVideo="https://garantizar365.microsoftcrmportals.com/Landing-Programa-Capacitacion/">Inscribite</a></div> -->
                     <div class="mbr-section-btn item-footer mt-2 text-center"><a href="" class="btn btn-primary disabled item-btn display-7" >Inscribite</a></div>
                     
                 </div>
-                
+                <div id="overlay"></div>
             </div>            
         </div>
     </div>
@@ -115,68 +127,45 @@
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-0 mt-2 pb-4 display-7">Garantizar SGR</h5>           
         </div>
         
-        <div id="carouselExampleIndicators" class="carousel slide d-none d-xl-block" data-ride="carousel">
-            <div class="carousel-inner d-none d-xl-block">
-                <div class="carousel-item active justify-content-center">
-                    <div class="col-12 col-md-3 video-block">
-                        <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/rTup2onSK0s?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
-                        <p class="mbr-text pt-2 mbr-fonts-style display-4">
-                            ¿Qué es una SGR y cómo beneficia a una empresa?</p>
-                    </div>
 
-                    <div class="col-6 col-md-3 video-block">
-                        <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/g1BAi8xZhww?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
-                        <p class="mbr-text pt-2 mbr-fonts-style display-4">¿Cuáles son las herramientas que ofrece una SGR para acceder al financiamiento ? Garantías bancarias, garantías bursátiles.</p>            
-                    </div>
-    
-                    <div class="col-12 col-md-3 video-block">
-                        <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/KPBKtb_sbsg?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
-                        <p class="mbr-text pt-2 mbr-fonts-style display-4">
-                            Créditos para monotributistas y autónomos – Garantizar Digital</p>
-                    </div>
-                </div>
-              <div class="carousel-item">  
-                <div class="col-12 col-md-3 video-block mx-auto">
-                    <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/kxrVwf4s_Bg?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
+        <div id="carouselExampleIndicators" class="carousel slide d-none d-xl-block" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active justify-content-center">
+                <div class="col-6 col-md-3 video-block">
+                    <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/rTup2onSK0s?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
                     <p class="mbr-text pt-2 mbr-fonts-style display-4">
-                        Workshop: "Estrategias para proyectar la fase de retorno al trabajo"</p>
+                        ¿Qué es una SGR y cómo beneficia a una empresa?</p>
                 </div>
+
+                <div class="col-6 col-md-3 video-block">
+                    <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/g1BAi8xZhww?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
+                    <p class="mbr-text pt-2 mbr-fonts-style display-4">¿Cuáles son las herramientas que ofrece una SGR para acceder al financiamiento ? Garantías bancarias, garantías bursátiles.</p>            
+                </div>
+                
+                <div class="col-6 col-md-3 video-block">
+                    <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/KPBKtb_sbsg?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
+                    <p class="mbr-text pt-2 mbr-fonts-style display-4">
+                        Créditos para monotributistas y autónomos – Garantizar Digital</p>
+                </div>
+
               </div>
 
-            </div>
-
-
-            <div class="carousel-inner d-xl-none">
-                <div class="carousel-item active justify-content-center">
-                    <div class="col-12 col-md-3 video-block">
-                        <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/rTup2onSK0s?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
-                        <p class="mbr-text pt-2 mbr-fonts-style display-4">
-                            ¿Qué es una SGR y cómo beneficia a una empresa?</p>
-                    </div>
-                </div>
-                <div class="carousel-item justify-content-center">
-                    <div class="col-6 col-md-3 video-block">
-                        <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/g1BAi8xZhww?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
-                        <p class="mbr-text pt-2 mbr-fonts-style display-4">¿Cuáles son las herramientas que ofrece una SGR para acceder al financiamiento ? Garantías bancarias, garantías bursátiles.</p>            
-                    </div>
-                </div>
-                <div class="carousel-item justify-content-center">
-                    <div class="col-12 col-md-3 video-block">
-                        <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/KPBKtb_sbsg?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
-                        <p class="mbr-text pt-2 mbr-fonts-style display-4">
-                            Créditos para monotributistas y autónomos – Garantizar Digital</p>
-                    </div>
-                </div>
-              <div class="carousel-item justify-content-center">  
+              <div class="carousel-item justify-content-center">   
                 <div class="col-12 col-md-3 video-block">
                     <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/kxrVwf4s_Bg?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
                     <p class="mbr-text pt-2 mbr-fonts-style display-4">
                         Workshop: "Estrategias para proyectar la fase de retorno al trabajo"</p>
                 </div>
+
+                <div class="col-12 col-md-3 video-block">
+                    <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/NLT2PjMZf-Q?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
+                    <p class="mbr-text pt-2 mbr-fonts-style display-4">
+                        Los sistemas financieros y el liderazgo de las mujeres"</p>
+                </div>
+
               </div>
+
             </div>
-
-
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
@@ -184,8 +173,7 @@
               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
-              </a>
-              
+              </a>              
         </div>
 
         <div id="carouselExampleIndicatorsMobile" class="carousel slide d-xl-none" data-ride="carousel">
@@ -218,6 +206,13 @@
                         Workshop: "Estrategias para proyectar la fase de retorno al trabajo"</p>
                 </div>
               </div>
+              <div class="carousel-item justify-content-center">  
+                <div class="col-12 col-md-3 video-block">
+                <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/NLT2PjMZf-Q?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="600" height="300" frameborder="0" allowfullscreen></iframe></div>
+                    <p class="mbr-text pt-2 mbr-fonts-style display-4">
+                        Los sistemas financieros y el liderazgo de las mujeres"</p>
+                </div>
+              </div>
             </div>
 
 
@@ -231,7 +226,6 @@
               </a>
               
         </div>
-       
     </div>   
 </section>
 
