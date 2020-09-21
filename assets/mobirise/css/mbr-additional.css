@@ -195,8 +195,8 @@ body {
 
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #ff6666 !important;
-  border-color: #ff6666 !important;
+  background-color: #ff9933 !important;
+  border-color: #ff9933 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -204,16 +204,16 @@ body {
 .btn-secondary:focus,
 .btn-secondary.focus,
 .btn-secondary.active {
-  color: #ffffff !important;
-  background-color: #ff0f0f !important;
-  border-color: #ff0f0f !important;
+  color: #ff9933 !important;
+  background-color: transparent !important;
+  border-color: #ff9933 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #ff0f0f !important;
-  border-color: #ff0f0f !important;
+  background-color: #ff9933 !important;
+  border-color: #ff9933 !important;
 }
 .btn-info,
 .btn-info:active {
