@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial;
-  color: #6f6259;
+  color: #000;
 }
 
 .carousel-control-prev-icon,
@@ -20,13 +20,13 @@ body {
 {
   content: '>';
   font-size: 40px;
-  color: #951b81;
+  color: #6633cc;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 40px;
-  color: #951b81;
+  color: #6633cc;
 }
 
 .display-1 {
@@ -138,7 +138,7 @@ body {
   border-radius: 4px;
 }
 .bg-primary {
-  background-color: #951b81 !important;
+  background-color: #037bc1 !important;
 }
 .bg-success {
   background-color: #40b0bf !important;
@@ -150,12 +150,12 @@ body {
   background-color: #ffe161 !important;
 }
 .bg-danger {
-  background-color: #ff9966 !important;
+  background-color: #ff6633 !important;
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #951b81 !important;
-  border-color: #951b81 !important;
+  background-color: #037bc1 !important;
+  border-color: #037bc1 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -163,9 +163,9 @@ body {
 .btn-primary:focus,
 .btn-primary.focus,
 .btn-primary.active {
-  color: #951b81 !important;
+  color: #037bc1 !important;
   background-color: #2260d200 !important;
-  border-color: #951b81 !important;
+  border-color: #037bc1 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-primary.disabled,
@@ -176,14 +176,14 @@ body {
 }
 
 .btn-outline-primary {
-  color:#ff9933;
-  border-color:#ff9933
+  color:#ff6633;
+  border-color:#ff6633
 }
   
 .btn-outline-primary:hover {
   color:#fff;
-  background-color:#ff9933;
-  border-color:#ff9933
+  background-color:#ff6633;
+  border-color:#ff6633
 }
   
 .btn-outline-primary.focus,.btn-outline-primary:focus {
@@ -191,13 +191,13 @@ body {
   }
   
 .btn-outline-primary.disabled,.btn-outline-primary:disabled {  
-  color:#ff9933;background-color:transparent
+  color:#ff6633;background-color:transparent
 }
 
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #ff9933 !important;
-  border-color: #ff9933 !important;
+  background-color: #ff6633 !important;
+  border-color: #ff6633 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -205,16 +205,16 @@ body {
 .btn-secondary:focus,
 .btn-secondary.focus,
 .btn-secondary.active {
-  color: #ff9933 !important;
+  color: #ff6633 !important;
   background-color: transparent !important;
-  border-color: #ff9933 !important;
+  border-color: #ff6633 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #ff9933 !important;
-  border-color: #ff9933 !important;
+  background-color: #ff6633 !important;
+  border-color: #ff6633 !important;
 }
 .btn-info,
 .btn-info:active {
@@ -284,8 +284,8 @@ body {
 }
 .btn-danger,
 .btn-danger:active {
-  background-color: #ff9966 !important;
-  border-color: #ff9966 !important;
+  background-color: #ff6633 !important;
+  border-color: #ff6633 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -392,24 +392,24 @@ body {
 }
 .btn-info-outline,
 .btn-info-outline:active {
-  background-color: transparent !important;
-  border-color: transparent;
-  color: #47b5ed;
+  background-color: white !important;
+  border-color: #6633CC;
+  color: #6633CC;
 }
 .btn-info-outline:hover,
 .btn-info-outline:focus,
 .btn-info-outline.focus,
 .btn-info-outline.active {
-  color: #148cca !important;
-  background-color: transparent!important;
-  border-color: transparent!important;
+  color: #6633CC !important;
+  background-color: white !important;
+  border-color: #6633CC!important;
   box-shadow: none!important;
 }
 .btn-info-outline.disabled,
 .btn-info-outline:disabled {
-  color: #ffffff !important;
-  background-color: #47b5ed !important;
-  border-color: #47b5ed !important;
+  color: #6633CC !important;
+  background-color: #FFF !important;
+  border-color: #6633CC !important;
 }
 .btn-success-outline,
 .btn-success-outline:active {
@@ -457,7 +457,7 @@ body {
 .btn-danger-outline:active {
   background-color: transparent !important;
   border-color: transparent;
-  color: #ff9966;
+  color: #ff6633;
 }
 .btn-danger-outline:hover,
 .btn-danger-outline:focus,
@@ -471,8 +471,8 @@ body {
 .btn-danger-outline.disabled,
 .btn-danger-outline:disabled {
   color: #ffffff !important;
-  background-color: #ff9966 !important;
-  border-color: #ff9966 !important;
+  background-color: #ff6633 !important;
+  border-color: #ff6633 !important;
 }
 .btn-black-outline,
 .btn-black-outline:active {
@@ -532,7 +532,7 @@ body {
   color: #ffe161 !important;
 }
 .text-danger {
-  color: #ff9966 !important;
+  color: #ff6633 !important;
 }
 .text-white {
   color: #fafafa !important;
@@ -609,7 +609,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):hover {
   background-color: #ffe161;
 }
 .alert-danger {
-  background-color: #ff9966;
+  background-color: #ff6633;
 }
 .mbr-gallery-filter li.active .btn {
   background-color: #6592e6;
@@ -745,7 +745,8 @@ a {
   transition: color 0.6s;
 }
 .cid-saNWaZyi4k {
-  background-image: url("../../../assets/images/gtz-landing1-2000x1333.jpeg");
+  background-image: url("../../../assets/images/GTZ_INC_landing.jpg");
+  background-position: 0px 70px;
 }
 @media (max-width: 991px) {
   .cid-saNWaZyi4k .mbr-section-title,
@@ -756,17 +757,18 @@ a {
   }
 }
 .cid-saNWaZyi4k .mbr-text,
-.cid-saNWaZyi4k .mbr-section-btn {
-  color: #6f6259;
+.cid-saNWaZyi4k .mbr-section-btn {  
+  color: #000;
 }
 .cid-s48udlf8KU {
   padding-top: 4rem;
   padding-bottom: 3rem;
-  background-image: url("../../../assets/images/gtz-landing2-2000x890.jpg");
+  background-color: #6633CC;
+  
 }
 .cid-s48udlf8KU .mbr-section-title {
   text-align: center;
-  color: #ff9933;
+  color: #FFF;
 }
 .cid-s48udlf8KU .mbr-section-subtitle {
   text-align: left;
@@ -1117,7 +1119,7 @@ a {
 .cid-saNUN1GiaH {
   padding-top: 2rem;
   padding-bottom: 1rem;
-  background-color: #ff9933;
+  background-color: #FF6633;
 }
 .cid-saNUN1GiaH .item:focus,
 .cid-saNUN1GiaH span:focus {
@@ -1155,7 +1157,7 @@ a {
   margin-top: auto !important;
 }
 .cid-saNUN1GiaH .mbr-section-title {
-  color: #951b81;
+  color: #6633cc;
 }
 .cid-saNUN1GiaH .mbr-text,
 .cid-saNUN1GiaH .mbr-section-btn {
@@ -1181,12 +1183,12 @@ a {
   text-align: center;
 }
 .cid-saNVAY3qRg .mbr-section-title {
-  color: #951b81;
+  color: #6633cc;
 }
 .cid-s48P1Icc8J {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #951b81;
+  background-color: #6633cc;
 }
 .cid-s48P1Icc8J .row-links {
   width: 100%;
@@ -1245,7 +1247,7 @@ a {
   }
 
   .cid-saNWaZyi4k {
-    background-image: url("../../../assets/images/gtz-landing1_mobile.jpeg");
+    background-image: url("../../../assets/images/GTZ_INC_landing.jpg");
   }
   
 }
