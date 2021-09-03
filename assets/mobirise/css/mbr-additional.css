@@ -29,7 +29,7 @@ body {
 }
 
 #fotojuanenriquedesktop {
-  display: block;
+  display: flex;
 }
 
 #fotojuanenriquemobile {
@@ -1283,7 +1283,7 @@ a {
   }
 
   #fotojuanenriquemobile {
-    display: block;
+    display: flex;
   }
   
 }
