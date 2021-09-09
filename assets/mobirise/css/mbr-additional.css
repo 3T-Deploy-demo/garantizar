@@ -9,6 +9,14 @@ body {
   color: #000;
 }
 
+.cid-sk {
+  display: none;
+}
+
+.cid-sk img {
+  margin-top: 70px;
+}
+
 .thumbnail_legend {
   background: none repeat scroll 0 0 #FFFFFF;
   opacity: 0.5;
@@ -1273,17 +1281,23 @@ a {
     -webkit-justify-content: center;
     justify-content: center;
   }
-
   .cid-saNWaZyi4k {
-    background-image: url("../../../assets/images/Portada_GTZ_Inclusion-02.jpg");
+    background-color: white;
+    background-image: none;
   }
-
+  #header2-q {
+    min-height: 70vh;
+  }
   #fotojuanenriquedesktop {
     display:none;
   }
 
   #fotojuanenriquemobile {
     display: flex;
+  }
+
+  .cid-sk {
+    display: block;
   }
   
 }
