@@ -14,7 +14,7 @@ body {
 }
 
 .cid-sk img {
-  margin-top: 70px;
+  margin-top: 90px;
 }
 
 .thumbnail_legend {
@@ -775,14 +775,14 @@ section.lazy-placeholder:after {
   opacity: 0.5;
 }
 body {
-  overflow-x: hidden;
+  overflow-x: hidden; 
 }
 a {
   transition: color 0.6s;
 }
 .cid-saNWaZyi4k {
   background-image: url("../../../assets/images/Version2mas-ancha.jpg");
-  background-position: 0px 70px;
+  background-position: 0px 100px;
 }
 @media (max-width: 991px) {
   .cid-saNWaZyi4k .mbr-section-title,
@@ -918,7 +918,7 @@ a {
 }
 .cid-s48OLK6784 .navbar .navbar-logo img {
   width: auto;
-  height: 1.2rem !important;
+  
 }
 .cid-s48OLK6784 .navbar .navbar-collapse {
   justify-content: flex-end;
@@ -987,7 +987,7 @@ a {
     top: 55%;
   }
   .cid-s48OLK6784 .navbar .navbar-logo img {
-    height: 1.2rem !important;
+    
   }
   .cid-s48OLK6784 .navbar ul.navbar-nav li {
     margin: auto;
