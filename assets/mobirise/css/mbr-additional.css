@@ -190,8 +190,8 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #951B81 !important;
-  border-color: #951B81 !important;
+  background-color: #037BC1 !important;
+  border-color: #037BC1 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -199,9 +199,9 @@ body {
 .btn-primary:focus,
 .btn-primary.focus,
 .btn-primary.active {
-  color: #951B81 !important;
+  color: #037BC1 !important;
   background-color: #2260d200 !important;
-  border-color: #951B81 !important;
+  border-color: #037BC1 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-primary.disabled,
