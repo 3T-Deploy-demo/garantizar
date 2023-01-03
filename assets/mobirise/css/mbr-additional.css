@@ -14,7 +14,7 @@ body {
 }
 
 .cid-sk img {
-  margin-top: 90px;
+  margin-top: 0;
 }
 
 .thumbnail_legend {
@@ -782,7 +782,7 @@ a {
 }
 .cid-saNWaZyi4k {
   background-image: url("../../../assets/images/Version2mas-ancha.jpg");
-  background-position: 0px 100px;
+  background-position: 0px 0px;
 }
 @media (max-width: 991px) {
   .cid-saNWaZyi4k .mbr-section-title,
